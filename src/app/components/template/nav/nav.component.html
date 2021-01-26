@@ -1,0 +1,27 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" 
+    opened fixedInViewport="true">
+        <div>
+            <div class="img" onclick="location.href='#';">
+                <img class="logo" src="assets/img/logo.png" alt="logo">
+            </div>
+        </div>
+        <mat-nav-list class="nav-list">
+            <a mat-list-item>
+                <i class="material-icons">
+                    home
+                </i>
+                Início
+            </a>
+            <a mat-list-item>
+                <i class="material-icons">
+                    dashboard
+                </i>
+                Outra tela
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,32 @@
+.sidenav {
+    width: 200px;
+    border: none;
+}
+
+.sidenav i {
+    padding-right: 30px;
+}
+
+.sidenav .logo {
+    max-height: 150px;
+    margin-top: 5px;
+}
+.img {
+    margin: auto;
+    width: 90%;
+    cursor: pointer;
+}
+
+.nav-list a:hover {
+    border-radius: 30px;
+    background-color: #5b5c5c;
+}
+
+.nav-list a {
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #424242;
+}
